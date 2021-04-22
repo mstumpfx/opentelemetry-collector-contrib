@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## 🛑 Breaking changes 🛑
+
+- `signalfx` exporter:
+  - (#3207) Additional metrics excluded by default from signalfx exporter
+    - system.disk.io_time
+    - system.disk.operation_time
+    - system.disk.weighted_io_time
+    - system.processes.count
+    - system.processes.created
+
 ## v0.25.0
 
 # 🎉 OpenTelemetry Collector Contrib v0.25.0 (Beta) 🎉
