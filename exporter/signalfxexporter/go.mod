@@ -18,7 +18,7 @@ require (
 	go.opentelemetry.io/collector v0.23.1-0.20210325210122-725021f804a6
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.16.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/protobuf v1.27.0
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
